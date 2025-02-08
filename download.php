@@ -1,6 +1,5 @@
 <?php
 // download.php
-
 // Define the downloads folder
 $downloadFolder = "downloads";
 if (!file_exists($downloadFolder)) {
