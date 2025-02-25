@@ -4,7 +4,7 @@
 $downloadFolder = "downloads";
 if (!file_exists($downloadFolder)) {
     mkdir($downloadFolder, 0777, true);
-}
+} 
 
 // Check if the form is submitted (POST request)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
